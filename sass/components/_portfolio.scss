@@ -72,7 +72,7 @@
 .gallery__item {
   display: flex;
   flex-direction: column;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     margin-bottom: 30px;
     width: 100%;
   }
@@ -137,7 +137,6 @@
 
 .gallery__overlay {
   position: relative;
-  height: 294px;
 }
 
 .gallery__overlay--wrap {

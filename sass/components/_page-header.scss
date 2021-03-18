@@ -11,16 +11,12 @@
   @media screen and (min-width: 767px) {
     justify-content: space-between;
   }
-
-  //   @media screen and (max-width: 767px) {
-  //     display: none;
-  //   }
 }
 
 .menu,
 .contacts {
   display: flex;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 }
@@ -67,7 +63,7 @@
 .contacts__item {
   align-self: start;
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     &:first-child {
       margin-bottom: 10px;
     }
