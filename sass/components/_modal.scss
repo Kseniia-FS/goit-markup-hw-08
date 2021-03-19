@@ -102,7 +102,7 @@
 
   letter-spacing: 0.03em;
 
-  color: $text-color-primary;
+  color: $text-color-secondary;
 }
 
 .form__label {
@@ -134,18 +134,18 @@
   border: 1px solid $accent-color;
 }
 
-.form__input:focus ~ .form__icon {
-  color: $accent-color;
-}
-
 .form__icon {
   position: absolute;
   left: 12px;
   top: 50%;
   transform: translateY(-30%);
-  fill: currentColor;
+  fill: $text-color-primary;
 
   transition: fill $animation-time $animation-dir;
+}
+
+.form__input:focus ~ .form__icon {
+  fill: $accent-color;
 }
 
 .form__textarea {
