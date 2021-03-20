@@ -69,7 +69,7 @@ img {
 
 .menu-toggle {
   position: absolute;
-  top: 12px;
+  top: 15px;
   right: 15px;
   background-color: transparent;
   border: none;
@@ -120,7 +120,7 @@ img {
 }
 .menu-contrainer .menu-toggle {
   position: absolute;
-  top: 12px;
+  top: 15px;
   right: 15px;
   color: .menu-contrainer .menu-toggle logo-color;
 }
