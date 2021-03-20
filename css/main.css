@@ -282,7 +282,7 @@ img {
   display: -ms-flexbox;
   display: flex;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 766px) {
   .menu,
 .contacts {
     display: none;
