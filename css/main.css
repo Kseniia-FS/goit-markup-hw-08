@@ -1093,6 +1093,11 @@ img {
 .subscribe {
   display: inline-block;
 }
+@media screen and (max-width: 480px) {
+  .subscribe {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 767px) {
   .subscribe {
     width: 100%;
