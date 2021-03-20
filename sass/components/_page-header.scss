@@ -15,9 +15,9 @@
 
 .menu,
 .contacts {
-  display: flex;
-  @media screen and (max-width: 766px) {
-    display: none;
+  display: none;
+  @media screen and (min-width: 767px) {
+    display: flex;
   }
 }
 
