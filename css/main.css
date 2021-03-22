@@ -321,7 +321,7 @@ img {
   position: relative;
   display: inline-block;
   color: #212121;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
@@ -1395,7 +1395,9 @@ img {
 }
 
 .policy__input {
-  display: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .policy__label {
@@ -1630,6 +1632,11 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);
+}
+@media screen and (max-width: 1199px) {
+  .gallery__overlay--wrap {
+    padding-top: 24px;
+  }
 }
 
 .gallery__overlay--text {

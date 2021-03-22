@@ -156,6 +156,10 @@
   transition: transform $animation-time $animation-dir;
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);
+
+  @media screen and (max-width: 1199px) {
+    padding-top: 24px;
+  }
 }
 
 .gallery__overlay--text {
