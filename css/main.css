@@ -1626,6 +1626,13 @@ img {
 .gallery__overlay {
   position: relative;
 }
+@media screen and (min-width: 1200px) {
+  .gallery__overlay img {
+    height: 294px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
 
 .gallery__overlay--wrap {
   position: absolute;
