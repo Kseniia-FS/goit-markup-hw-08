@@ -202,6 +202,10 @@ img {
   margin: 0 10px;
 }
 
+.current__mobile {
+  color: #2196f3;
+}
+
 .logo {
   color: #000000;
   font-family: Raleway;
