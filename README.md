@@ -1,1 +1,1 @@
-# goit-markup-hw-08
+Final project during studing Full Stack
